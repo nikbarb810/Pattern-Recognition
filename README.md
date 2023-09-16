@@ -10,7 +10,7 @@ Explore the relationship between apartment price and factors like age and size. 
 
 ### 2. Basic Bayesian Classifier
 
-Evaluate a Wine dataset and classify new samples into red, white, or rose categories using a basic Bayesian classifier. Gain insights into probabilistic classification.
+Evaluate a Wine dataset and classify new samples into red, white, or rose categories using a basic Bayesian classifier. Examine how introducing Conditional Risk, like price for each category, affects the output. Gain insights into probabilistic classification.
 
 ### 3. Bayesian Update
 
