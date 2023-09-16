@@ -1,0 +1,62 @@
+n_samples_0	132
+price_0	10
+
+mean_0
+alcohol            13.744746
+color_intensity     5.528305
+
+covariance_matrix_0
+                  alcohol  color_intensity
+alcohol          0.213560         0.233696
+color_intensity  0.233696         1.534063
+
+n_samples_1	273
+price_1	12
+
+mean_1
+alcohol            12.278732
+color_intensity     3.086620
+
+covariance_matrix_1
+                  alcohol  color_intensity
+alcohol          0.289406         0.134241
+color_intensity  0.134241         0.855494
+
+n_samples_1	216
+price_2	14
+
+mean_2
+alcohol            13.15375
+color_intensity     7.39625
+
+covariance_matrix_2
+                  alcohol  color_intensity
+alcohol          0.281156         0.429338
+color_intensity  0.429338         5.340454
+
+
+
+-----------------------------------
+
+# The same information as above but in a python readable format
+
+means = [
+    [13.744746, 5.528305], 
+    [12.278732, 3.086620], 
+    [13.15375, 7.39625]
+]
+
+covs = [
+    [
+        [0.213560, 0.233696], 
+        [0.233696, 1.534063]
+    ],
+    [
+        [0.289406, 0.134241], 
+        [0.134241, 0.855494]
+    ],
+    [
+        [0.281156, 0.429338], 
+        [0.429338, 5.340454]
+    ]
+]
